@@ -10,3 +10,16 @@ bootRun {
 	systemProperties = System.properties
 	classpath = sourceSets.main.runtimeClasspath + configurations.dev
 }
+# run above to command simultanouesly
+-- gradle build --continous
+-- gradle bootrun 
+
+
+
+
+
+
+
+
+#force to download dependencies
+./gradlew build --refresh-dependencies
